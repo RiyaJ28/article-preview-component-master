@@ -1,36 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" src="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
   <title>Frontend Mentor | Article preview component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
+  <div class="card mb-3">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img class="img-fluid" src="images/drawers.jpg" alt="product">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <p class="card-title">Shift the overall look and feel by adding these wonderful touches to furniture in your
+            home</p>
 
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
+          <p class="card-text text-muted">Ever been in a room and felt like something was missing? Perhaps it felt
+            slightly bare and uninviting. I’ve
+            got some simple tips to help you make any room feel complete.</p>
 
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
+          <div>
+            <div>
+              <img src="images/avatar-michelle.jpg" alt="photo">
+            </div>
+            <div>
+              <p>Michelle Appleton</p>
+              <p class="text-muted">28 Jun 2020</p>
+            </div>
+            <div>
+              Share
+            </div>
+          </div>
 
-  Michelle Appleton
-  28 Jun 2020
+        </div>
+      </div>
+    </div>
 
-  Share
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
   </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script href="index.js" charset="UTF-8"></script>
 </body>
+
 </html>
