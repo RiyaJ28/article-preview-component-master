@@ -1,0 +1,70 @@
+body{
+    
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
+}
+.main{
+    height: 100vh;
+    background-color: hsl(210, 46%, 95%);
+}
+.cardCSS{
+    max-width: 800px;
+    font-size: 13px;
+
+}
+.product{
+    object-fit:fill;
+}
+.image{
+    border-radius: 100%;
+    width: 60px;
+}
+.card-title{
+    font-weight: 700;
+    font-size: 20px;
+    color:  hsl(217, 19%, 35%);
+}
+.name{
+    padding-bottom: 0;
+    margin-bottom: 3px;
+    font-size: 13px;
+    font-weight: 700;
+    color:hsl(217, 19%, 35%);
+}
+.ns{
+    padding-left:30px;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.e{
+    width: 100%;
+}
+.jd{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex: auto;
+}
+.share{
+    background-color:hsl(210, 46%, 95%);
+    border-radius:100%;
+    padding: 10px;
+    cursor: pointer;
+    color: hsl(217, 19%, 35%);
+
+}
+
+.share:hover {
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+}
+
+
+@media  screen and (max-width:426px) {
+    .main{
+        padding: 10%;
+    }
+}
+
