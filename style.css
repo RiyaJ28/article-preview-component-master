@@ -48,9 +48,9 @@ body{
     flex: auto;
 }
 .share{
-    background-color:hsl(210, 46%, 95%);
     border-radius:100%;
-    padding: 10px;
+    padding: 10px;   
+    background-color:hsl(210, 46%, 95%);
     cursor: pointer;
     color: hsl(217, 19%, 35%);
 
@@ -71,7 +71,7 @@ body{
   #popup {
     position: absolute;
     background-color:hsl(217, 19%, 35%);
-    color: var(--grayBlue);
+    color:hsl(210, 46%, 95%);
     text-transform: uppercase;
     letter-spacing: 0.5vh;
     display: flex;
@@ -81,8 +81,8 @@ body{
     border-radius: 1vh;
     font-size: small;
     width: 10vw;
-    top: -3vw;
-    left: 3vw;
+    top: -4.5vw;
+    left: -4.5vw;
   }
   
   #popup::after {
