@@ -42,20 +42,30 @@
                 <p class="text-muted">28 Jun 2020</p>
               </div>
               <div class="jd">
-                <img class="d-flex justify-content-end align-content-center share" src="images/icon-share.svg"
-                  alt="share">
+                <div class="popupParent">
+                  <div id="popup" class="hidden">
+                    Share
+                    <img src="images/icon-facebook.svg" alt="icon-facebook" />
+                    <img src="images/icon-twitter.svg" alt="icon-twitter" />
+                    <img src="images/icon-pinterest.svg" alt="icon-pinterest" />
+                  </div>
+                </div>
+                <div id="ba" class="button" onclick="clickShare()">
+                  <img class="share" src="images/icon-share.svg" alt="Share" />
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    </div>
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-  <script href="index.js" charset="UTF-8"></script>
+  <script src="index.js" charset="UTF-8"></script>
 </body>
 
 </html>

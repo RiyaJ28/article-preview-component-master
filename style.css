@@ -58,9 +58,47 @@ body{
 
 .share:hover {
     background-color: hsl(217, 19%, 35%);
-    color: white;
 }
 
+#popup{
+    background-color: hsl(217, 19%, 35%);
+    position: absolute;
+}
+
+.popupParent {
+    position: relative;
+  }
+  #popup {
+    position: absolute;
+    background-color:hsl(217, 19%, 35%);
+    color: var(--grayBlue);
+    text-transform: uppercase;
+    letter-spacing: 0.5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1vh 1vw;
+    border-radius: 1vh;
+    font-size: small;
+    width: 10vw;
+    top: -3vw;
+    left: 3vw;
+  }
+  
+  #popup::after {
+    content: " ";
+    height: 0;
+    position: absolute;
+    width: 0;
+    left: 50%;
+    bottom: -50%;
+    border: 10px solid transparent;
+    border-top-color: hsl(217, 19%, 35%);
+  }
+  
+  .hidden {
+    display: none !important;
+  }
 
 @media  screen and (max-width:426px) {
     .main{
